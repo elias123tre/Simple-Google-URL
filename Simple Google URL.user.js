@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  Redirect google search urls to a simpler one
-// @author       elias1233
+// @author       elias123tre
 // @match        https://www.google.com/search?*
 // @grant        none
 // ==/UserScript==
