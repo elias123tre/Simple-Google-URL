@@ -21,6 +21,6 @@
             searchquery = newurl.substring(0, newurl.indexOf("&"));
         }
         //         newurl.substring(2, newurl.indexOf("&") + 2);
-        window.location.href = "https://www.google.com/search?q=" + searchquery;
+        history.pushState(null, "", "/search?q=" + searchquery);
 }
  })();
